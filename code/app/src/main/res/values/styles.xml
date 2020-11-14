@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+
+
+
+
+
+
+    </style>
+
+    <style name="AppTheme.CustomTheme6">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+
+
+
+
+
+
+    </style>
+
+    <style name="AppTheme.CustomTheme7">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+
+
+
+
+
+
+    </style>
+    <style name="AppTheme.CustomTheme8">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+
+
+
+
+
+
+    </style>
+    <style name="AppTheme.CustomTheme9">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+
+
+
+
+
+
+    </style>
+    <style name="AppTheme.CustomTheme2">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+    <style name="AppTheme.CustomTheme3">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+
+
+
+
+
+
+    </style>
+
+    <style name="AppTheme.CustomTheme4">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+
+
+
+
+
+
+    </style>
+
+    <style name="AppTheme.CustomTheme5">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+
+
+
+
+
+
+    </style>
+
+
+</resources>

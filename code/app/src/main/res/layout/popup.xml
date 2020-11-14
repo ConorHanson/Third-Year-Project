@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADE792">
+
+    <Button
+        android:id="@+id/buttonto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/forced_t_o"
+        app:layout_constraintBottom_toTopOf="@+id/tol"
+        app:layout_constraintEnd_toEndOf="@id/tol"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/tol"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tol"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/unforced_t_o"
+        app:layout_constraintBottom_toTopOf="@+id/tm"
+        app:layout_constraintEnd_toEndOf="@id/tm"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/tm"
+        app:layout_constraintTop_toBottomOf="@+id/buttonto" />
+
+    <Button
+        android:id="@+id/tm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Linebreaks Made"
+        app:layout_constraintBottom_toTopOf="@+id/tmi"
+        app:layout_constraintEnd_toEndOf="@id/tmi"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/tmi"
+        app:layout_constraintTop_toBottomOf="@+id/tol" />
+
+    <Button
+        android:id="@+id/tmi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tackle Missed"
+        app:layout_constraintBottom_toTopOf="@+id/tw"
+        app:layout_constraintEnd_toEndOf="@id/tw"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/tw"
+        app:layout_constraintTop_toBottomOf="@+id/tm" />
+
+    <Button
+        android:id="@+id/tw"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:text="Turnover Won"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tmi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

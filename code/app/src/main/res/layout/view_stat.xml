@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pitch"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:text="Forced Turnover"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider8" />
+
+    <TextView
+        android:id="@+id/ourhtm"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginEnd="24dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ourhtw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintTop_toBottomOf="@+id/divider8" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="UnForced Turnover"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/ourhtw"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider9"
+        app:layout_constraintEnd_toEndOf="@+id/ourhtm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/ourhtm"
+        app:layout_constraintTop_toBottomOf="@+id/ourhtm" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Linebreaks Made"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider9"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Turnovers Won"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider9"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Tackles Missed"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintEnd_toStartOf="@+id/ourhtm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ourhft"
+        app:layout_constraintTop_toBottomOf="@+id/divider8" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Forced Turnover"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/divider9" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:text="Linebreaks Made"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider10"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/op22lm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:text="0"
+        android:textColor="#FFFEFE"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider11"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toEndOf="@+id/textView66"
+        app:layout_constraintTop_toBottomOf="@+id/op22ut" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="UnForced Turnover"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView66"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView66"
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:text="Linebreaks Made"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider11"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView68" />
+
+    <TextView
+        android:id="@+id/op22ut"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/op22lm"
+        app:layout_constraintEnd_toEndOf="@+id/op22lm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/op22lm"
+        app:layout_constraintTop_toBottomOf="@+id/op22ft" />
+
+    <TextView
+        android:id="@+id/op22ft"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/op22ut"
+        app:layout_constraintEnd_toEndOf="@+id/op22ut"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/op22ut"
+        app:layout_constraintTop_toBottomOf="@+id/divider10" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Tackles Missed"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintEnd_toStartOf="@+id/ophtm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ophft"
+        app:layout_constraintTop_toBottomOf="@+id/divider9" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Turnovers Won"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider10"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/ophlm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:text="0"
+        android:textColor="#FFFEFE"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider10"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/ophut" />
+
+    <TextView
+        android:id="@+id/ophft"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ophut"
+        app:layout_constraintEnd_toEndOf="@+id/ophut"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/ophut"
+        app:layout_constraintTop_toBottomOf="@+id/divider9" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="UnForced Turnover"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView31"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/ophtm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ophtw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintTop_toBottomOf="@+id/divider9" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Forced Turnover"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView68"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView68"
+        app:layout_constraintTop_toBottomOf="@+id/divider10" />
+
+    <TextView
+        android:id="@+id/ophtw"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider10"
+        app:layout_constraintEnd_toEndOf="@+id/ophtm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/ophtm"
+        app:layout_constraintTop_toBottomOf="@+id/ophtm" />
+
+    <TextView
+        android:id="@+id/ophut"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ophlm"
+        app:layout_constraintEnd_toEndOf="@+id/ophlm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/ophlm"
+        app:layout_constraintTop_toBottomOf="@+id/ophft" />
+
+    <TextView
+        android:id="@+id/op22tm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintTop_toTopOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/op22tw"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider11"
+        app:layout_constraintEnd_toEndOf="@+id/op22tm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/op22tm"
+        app:layout_constraintTop_toBottomOf="@+id/op22tm" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:text="Turnovers Won"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider11"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView72"
+        app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Tackles Missed"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView73"
+        app:layout_constraintEnd_toStartOf="@+id/op22tm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toEndOf="@+id/op22ut"
+        app:layout_constraintTop_toBottomOf="@+id/divider10" />
+
+    <TextView
+        android:id="@+id/ourhft"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ourhut"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/divider8" />
+
+    <TextView
+        android:id="@+id/ourhut"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ourhlm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/ourhft"
+        app:layout_constraintTop_toBottomOf="@+id/ourhft" />
+
+    <TextView
+        android:id="@+id/ourhlm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FFFEFE"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider9"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/ourhut"
+        app:layout_constraintTop_toBottomOf="@+id/ourhut" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHeight_percent=".025"
+        app:layout_constraintStart_toEndOf="@+id/home2"
+        app:layout_constraintTop_toTopOf="@id/home2" />
+
+    <TextView
+        android:id="@+id/away"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHeight_percent=".025"
+        app:layout_constraintTop_toTopOf="@id/textView4" />
+
+    <TextView
+        android:id="@+id/teamname"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="TeamName"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".05"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:text="Forced Turnover"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="UnForced Turnover"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/our22tm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/our22tw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+
+    <TextView
+        android:id="@+id/our22ft"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/our22ut"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+
+    <TextView
+        android:id="@+id/our22ut"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/our22lm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/our22ft"
+        app:layout_constraintTop_toBottomOf="@+id/our22ft" />
+
+    <TextView
+        android:id="@+id/our22tw"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:text="0"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintTop_toBottomOf="@+id/our22tm" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Tackles MIssed"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintEnd_toStartOf="@+id/our22tm"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/our22ft"
+        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Turnovers Won"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider8"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toEndOf="@+id/our22ut"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Linebreaks Made"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider8"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/our22lm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="0"
+        android:textColor="#FFFEFE"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider8"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="@+id/our22ut"
+        app:layout_constraintTop_toBottomOf="@+id/our22ut" />
+
+    <Button
+        android:id="@+id/buttonvisual"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Visual Stats"
+        app:layout_constraintBottom_toBottomOf="@+id/fulltime"
+        app:layout_constraintEnd_toStartOf="@+id/timeline"
+        app:layout_constraintHeight_percent=".055"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fulltime"
+        app:layout_constraintTop_toTopOf="@+id/fulltime" />
+
+    <TextView
+        android:id="@+id/home2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Our Score"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/home"
+        app:layout_constraintHeight_percent="0.025"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/teamname" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginEnd="16dp"
+        android:text="Oppopent Score"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/home2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.025"
+        app:layout_constraintTop_toTopOf="@+id/home2" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonvisual" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".025"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintTop_toBottomOf="@+id/our22lm"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintHeight_percent=".085"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintHeight_percent=".075"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView66" />
+
+    <Button
+        android:id="@+id/viewour22"
+        android:layout_width="398dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider12" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewour22" />
+
+    <Button
+        android:id="@+id/viewoph"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".229"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/viewop22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewoph"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/timeline"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="16dp"
+        android:text="Timeline"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonvisual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".55"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonvisual"
+        app:layout_constraintTop_toTopOf="@+id/buttonvisual" />
+
+    <Button
+        android:id="@+id/fulltime"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:text="Exit Game"
+        app:layout_constraintEnd_toStartOf="@+id/buttonvisual"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home2" />
+
+    <View
+        android:id="@+id/divider12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/viewour22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Register">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reg_name"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        app:layout_constraintBottom_toTopOf="@+id/reg_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regnow" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reg_pw"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/pw"
+        android:password="true"
+        app:layout_constraintBottom_toTopOf="@+id/t_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_email" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reg_email"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        app:layout_constraintBottom_toTopOf="@+id/reg_pw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_name" />
+
+    <Button
+        android:id="@+id/t_button"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_pw" />
+
+    <TextView
+        android:id="@+id/regnow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Account"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/reg_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

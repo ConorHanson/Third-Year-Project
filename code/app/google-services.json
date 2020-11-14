@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078135130346",
+    "firebase_url": "https://rugbystat-19009.firebaseio.com",
+    "project_id": "rugbystat-19009",
+    "storage_bucket": "rugbystat-19009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078135130346:android:f0d31773e1cdc9cfce6f93",
+        "android_client_info": {
+          "package_name": "com.example.rugstats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078135130346-bb5or7hngq2rrgrmlia7jmp6g9it56df.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rugstats",
+            "certificate_hash": "9b6658ca2baa9081577bf6abce108528029683f0"
+          }
+        },
+        {
+          "client_id": "1078135130346-72jjdftr0vvrdmbgosrejqk8monj8486.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClXApng7cfeducMHcGFMG_Qdv4hUyas5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078135130346-72jjdftr0vvrdmbgosrejqk8monj8486.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

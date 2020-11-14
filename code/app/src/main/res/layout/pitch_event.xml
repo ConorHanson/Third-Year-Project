@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pitch"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button5a"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/Grey"
+        android:text="-"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button3a"
+        app:layout_constraintEnd_toEndOf="@id/trya"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toStartOf="@id/trya" />
+
+    <Button
+        android:id="@+id/button3a"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/Grey"
+        android:text="-"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button2a"
+        app:layout_constraintEnd_toEndOf="@id/pena"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toStartOf="@id/pena" />
+
+    <Button
+        android:id="@+id/button2a"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/Grey"
+        android:text="-"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button5h"
+        app:layout_constraintEnd_toEndOf="@id/cona"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toStartOf="@id/cona" />
+
+    <Button
+        android:id="@+id/button3h"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/Grey"
+        android:text="-"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button2h"
+        app:layout_constraintEnd_toEndOf="@id/penhome"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toStartOf="@id/penhome" />
+
+    <Button
+        android:id="@+id/button5h"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/Grey"
+        android:text="-"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button3h"
+        app:layout_constraintEnd_toEndOf="@id/tryhome"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toStartOf="@id/tryhome" />
+
+    <TextView
+        android:id="@+id/away"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@id/textView6" />
+
+    <Button
+        android:id="@+id/opp_half"
+
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/opp22"
+        android:text="Opp Half"
+        app:layout_constraintBottom_toTopOf="@+id/op22"
+        app:layout_constraintEnd_toEndOf="@+id/op22"
+        app:layout_constraintHeight_percent=".23"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/op22"
+        app:layout_constraintTop_toBottomOf="@+id/opp22" />
+
+    <Button
+        android:id="@+id/op22"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="Opp 22"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".185"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opp_half" />
+
+    <Button
+        android:id="@+id/our_half2"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Our 22"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/opp22"
+        app:layout_constraintEnd_toEndOf="@+id/opp22"
+        app:layout_constraintHeight_percent=".185"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/opp22"
+        app:layout_constraintTop_toBottomOf="@+id/cona" />
+
+    <Button
+        android:id="@+id/opp22"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/our_half2"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="Our Half"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/opp_half"
+        app:layout_constraintEnd_toEndOf="@+id/opp_half"
+        app:layout_constraintHeight_percent="0.23"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/opp_half"
+        app:layout_constraintTop_toBottomOf="@+id/our_half2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginEnd="8dp"
+        android:text="Opp Score"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".03"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cona"
+        android:background="@color/Green"
+        android:layout_width="57dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_toStartOf="@+id/pena"
+        android:text="2"
+        app:layout_constraintBottom_toBottomOf="@+id/tryhome"
+        app:layout_constraintEnd_toStartOf="@+id/pena"
+        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tryhome"
+        app:layout_constraintTop_toTopOf="@+id/tryhome"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/conhome"
+        android:background="@color/Green"
+        android:layout_width="57dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:text="2"
+        app:layout_constraintEnd_toStartOf="@+id/penhome"
+        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button2a" />
+
+    <Button
+        android:id="@+id/tryhome"
+        android:background="@color/Green"
+        android:layout_width="57dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:layout_toEndOf="@+id/penhome"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/penhome"
+        app:layout_constraintEnd_toStartOf="@+id/cona"
+        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/penhome"
+        app:layout_constraintTop_toTopOf="@+id/penhome"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/trya"
+        android:layout_width="57dp"
+        android:background="@color/Green"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/pena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pena" />
+
+    <Button
+        android:id="@+id/penhome"
+        android:background="@color/Green"
+        android:layout_width="57dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/conhome"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/conhome"
+        app:layout_constraintEnd_toStartOf="@+id/tryhome"
+        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/conhome"
+        app:layout_constraintTop_toTopOf="@+id/conhome"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/pena"
+        android:background="@color/Green"
+        android:layout_width="57dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/trya"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/cona"
+        app:layout_constraintEnd_toStartOf="@+id/trya"
+        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cona"
+        app:layout_constraintTop_toTopOf="@+id/cona"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="8dp"
+        android:text="Our Score"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3h"
+        app:layout_constraintHeight_percent=".03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/stats"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:text="Stats / Exit Game"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHeight_percent=".1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="17sp"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@id/textView5" />
+
+    <Button
+        android:id="@+id/button2h"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/Grey"
+        android:text="-"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/conhome"
+        app:layout_constraintEnd_toEndOf="@id/conhome"
+        app:layout_constraintHeight_percent=".04"
+        app:layout_constraintStart_toStartOf="@id/conhome"
+        app:layout_constraintTop_toBottomOf="@id/stats" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

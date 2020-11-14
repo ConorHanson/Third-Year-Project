@@ -1,0 +1,1 @@
+https://ca326rugbystatistics.data.blog/blog-feed/

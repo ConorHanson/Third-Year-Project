@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/bar"
+        layout="@layout/bar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="150dp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="148dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/buttonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginEnd="41dp"
+        android:text="@string/forced_t_o" />
+
+    <Button
+        android:id="@+id/tol"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonto"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/unforced_t_o" />
+
+    <Button
+        android:id="@+id/tm"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tol"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:text="Linebreaks Made" />
+
+    <Button
+        android:id="@+id/tmi"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tm"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:text="Tackle Missed" />
+
+    <Button
+        android:id="@+id/tw"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tmi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="37dp"
+        android:text="Turnover Won" />
+
+    <Button
+        android:id="@+id/tryhome"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="176dp"
+        android:layout_toEndOf="@+id/penhome"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/trya"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="11dp"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/pena"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="7dp"
+        android:layout_toStartOf="@+id/trya"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/cona"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/pena"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/conhome"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="176dp"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/penhome"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="176dp"
+        android:text="3" />
+
+    <TextView
+        android:id="@+id/team_n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="116dp"
+        android:text="You"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/team_n2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="11dp"
+        android:text="Opposition"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
